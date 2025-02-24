@@ -38,7 +38,7 @@ if __name__ == "__main__":
         attention_dropout=0.0,
         activation_dropout=0.0,
         pad_token_id=encodec_vocab_size,
-        eos_token_id=encodec_vocab_size,
+        eos_token_id=encodec_vocab_size - 1,
         bos_token_id=encodec_vocab_size + 1,
         num_codebooks=num_codebooks,
     )

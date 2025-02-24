@@ -125,7 +125,7 @@ class ParlerTTSDecoderConfig(PretrainedConfig):
         num_codebooks=4,
         pad_token_id=2048,
         bos_token_id=2049,
-        eos_token_id=2050,
+        eos_token_id=2047,
         tie_word_embeddings=False,
         rope_embeddings=False,
         rope_theta=10_000.0,

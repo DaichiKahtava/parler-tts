@@ -2363,6 +2363,7 @@ class ParlerTTSForConditionalGeneration(PreTrainedModel):
         # Currently all of this is printing
         # print(self.text_encoder.config.to_dict())
         # print(self.audio_encoder.to_dict())
+        print("heloooooooooooooooooo")
         if self.text_encoder.config.to_dict() != self.config.text_encoder.to_dict():
             logger.warning(
                 f"Config of the text_encoder: {self.text_encoder.__class__} is overwritten by shared text_encoder config:"
